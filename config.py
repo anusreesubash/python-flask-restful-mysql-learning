@@ -1,0 +1,5 @@
+host='localhost'
+user='root'
+password='root123'
+db='blog_1'
+charset='utf8mb4'
