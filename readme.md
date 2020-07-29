@@ -1,4 +1,4 @@
-# Python Flask-RESTFul learning Learning
+# Python Flask-RESTFul mysql learning
 
 ## Dependencies
 * python v3.7.1
@@ -6,7 +6,7 @@
 
 ## Setup
 ```bash
-git clone https://github.com/anusreesubash/python-flask-learning.git
+git clone https://github.com/anusreesubash/python-flask-restful-mysql-learning.git
 ```
 
 ## Install
