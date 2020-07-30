@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "7802679b-ce63-451c-8e54-65b90a34dc50",
-		"name": "Flask-RESTFul",
+		"_postman_id": "3a00a081-94ea-4fda-bef3-9bbcc6a32767",
+		"name": "Flask-RESTFul-Mysql",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -34,7 +34,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/author/5",
+					"raw": "http://127.0.0.1:5000/api/author/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -46,7 +46,7 @@
 					"path": [
 						"api",
 						"author",
-						"5"
+						"1"
 					]
 				}
 			},
@@ -65,7 +65,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"anoopmd\",\n    \"email\": \"anoopmd@gmail.com\"\n}"
+					"raw": "{\n    \"name\": \"anusree1\",\n    \"email\": \"anusree@gmail\"\n}"
 				},
 				"url": {
 					"raw": "http://127.0.0.1:5000/api/author",
@@ -91,7 +91,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/author/2",
+					"raw": "http://127.0.0.1:5000/api/author/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -103,7 +103,7 @@
 					"path": [
 						"api",
 						"author",
-						"2"
+						"1"
 					]
 				}
 			},
@@ -125,7 +125,7 @@
 					"raw": "{\n    \"name\": \"anoop2\",\n    \"email\": \"anoopmd@gmail.com\"\n}"
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/author/5",
+					"raw": "http://127.0.0.1:5000/api/author/2",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -137,7 +137,7 @@
 					"path": [
 						"api",
 						"author",
-						"5"
+						"2"
 					]
 				}
 			},
